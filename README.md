@@ -22,4 +22,13 @@ console.log(musing); //Brent mused, and then replied; this is the module I've ne
 
 const quip = davidBrent.quipped(`this just gets better and better!`);
 console.log(quip); //David quipped; this just gets better and better!
+
+davidBrent.meltingpot({
+	stringsToBrentsBow: ['philanthropist', 'chilled out entertainer'],
+	friendOrBoss: ['friend first', 'boss second', 'probably entertainer third']
+});
+
+davidBrent.stringsToBrentsBow(); //philanthropist
+davidBrent.stringsToBrentsBow(); //chilled out entertainer
+davidBrent.friendOrBoss(); //boss second
 ```

@@ -70,4 +70,25 @@ describe('David Brent', () => {
 
   });
 
+  describe('meltingpot', () => {
+
+    it('should return a random quote from the pot', () => {
+	  davidBrent.meltingpot({
+	  	stringsToBrentsBow: ['philanthropist', 'chilled out entertainer'],
+	  	friendOrBoss: ['friend first', 'boss second', 'probably entertainer third']
+	  });
+	  Math.random = () => 0.1;
+	  expect(davidBrent.stringsToBrentsBow()).to.equal(`philanthropist`);
+	  expect(davidBrent.friendOrBoss()).to.equal(`friend first`);
+
+	  Math.random = () => 0.9;
+	  expect(davidBrent.stringsToBrentsBow()).to.equal(`chilled out entertainer`);
+	  expect(davidBrent.friendOrBoss()).to.equal(`probably entertainer third`);
+
+	  Math.random = () => 0.5;
+	  expect(davidBrent.friendOrBoss()).to.equal(`boss second`);
+    });
+
+  });
+
 });
