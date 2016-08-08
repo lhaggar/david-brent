@@ -1,6 +1,6 @@
 {
   "name": "david-brent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I'm a friend first and a boss second. Probably an entertainer third.",
   "main": "lib/index.js",
   "scripts": {
