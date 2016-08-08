@@ -1,0 +1,21 @@
+{
+  "name": "david-brent",
+  "version": "1.0.0",
+  "description": "I'm a friend first and a boss second. Probably an entertainer third.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "office",
+    "david",
+    "brent",
+    "brentmeister"
+  ],
+  "author": "Lewis Haggar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  }
+}

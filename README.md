@@ -1,0 +1,1 @@
+![Nicknames Are Bad Names](https://img.shields.io/badge/nicknames-bad--names-red.svg)
