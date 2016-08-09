@@ -70,10 +70,10 @@ describe('David Brent', () => {
 
   });
 
-  describe('meltingpot', () => {
+  describe('meltingPot', () => {
 
     it('should return a random quote from the pot', () => {
-	  davidBrent.meltingpot({
+	  davidBrent.meltingPot({
 	  	stringsToBrentsBow: ['philanthropist', 'chilled out entertainer'],
 	  	friendOrBoss: ['friend first', 'boss second', 'probably entertainer third']
 	  });

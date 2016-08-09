@@ -14,21 +14,20 @@ People `npm install david-brent --save`, they go, 'yeah yeah, you are the best'.
 ```js
 const davidBrent = require('david-brent');
 
-const randomQuote = davidBrent();
-console.log(randomQuote); //Go and get the guitar.
+davidBrent(); //=> 'Go and get the guitar.'
+davidBrent(); //=> 'I knew he would! Typical. That'll work!'
 
-const musing = davidBrent.mused(`this is the module I've needed!`);
-console.log(musing); //Brent mused, and then replied; this is the module I've needed!
+davidBrent.mused(`this is the module I've needed!`);
+//=> 'Brent mused, and then replied; this is the module I've needed!'
 
-const quip = davidBrent.quipped(`this just gets better and better!`);
-console.log(quip); //David quipped; this just gets better and better!
+davidBrent.quipped(`this just gets better and better!`);
+//=> 'David quipped; this just gets better and better!'
 
-davidBrent.meltingpot({
-	stringsToBrentsBow: ['philanthropist', 'chilled out entertainer'],
-	friendOrBoss: ['friend first', 'boss second', 'probably entertainer third']
+davidBrent.meltingPot({
+	stringsToBrentsBow: [ 'philanthropist', 'chilled out entertainer' ],
+	friendOrBoss: [ 'friend first', 'boss second', 'probably entertainer third' ]
 });
-
-davidBrent.stringsToBrentsBow(); //philanthropist
-davidBrent.stringsToBrentsBow(); //chilled out entertainer
-davidBrent.friendOrBoss(); //boss second
+davidBrent.stringsToBrentsBow(); //=> 'philanthropist'
+davidBrent.stringsToBrentsBow(); //=> 'chilled out entertainer'
+davidBrent.friendOrBoss(); //=> 'boss second'
 ```
