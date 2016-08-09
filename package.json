@@ -10,9 +10,19 @@
     "office",
     "david",
     "brent",
-    "brentmeister"
+    "brentmeister",
+    "quote",
+    "quotes",
+    "philosophy"
   ],
   "author": "Lewis Haggar",
+  "contributors": [
+    "Stephen Scott"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/lhaggar/david-brent.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "chai": "3.5.0",
