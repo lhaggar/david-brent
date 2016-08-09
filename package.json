@@ -1,6 +1,6 @@
 {
   "name": "david-brent",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "I'm a friend first and a boss second. Probably an entertainer third.",
   "main": "lib/index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   "contributors": [
     "Stephen Scott"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/lhaggar/david-brent.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhaggar/david-brent.git"
   },
   "license": "ISC",
   "devDependencies": {
